@@ -35,9 +35,8 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    implementation("software.amazon.awssdk:auth:2.26.20")
     implementation("software.amazon.awssdk:athena:2.26.20")
-    implementation("com.amazonaws:aws-java-sdk:1.12.761")
+    runtimeOnly("software.amazon.awssdk:bom:2.26.20")
 }
 
 kotlin {
