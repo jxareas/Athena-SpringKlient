@@ -38,3 +38,6 @@ out/
 
 ### Kotlin ###
 .kotlin
+
+## Environment properties ###
+env.properties
