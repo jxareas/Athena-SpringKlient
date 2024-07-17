@@ -1,15 +1,31 @@
 <a name="readme-top"></a>
 <br />
+
 <div align="center">
+<a href="#">
+   <!-- Replace this logo for a custom official logo -->
+    <img src="./assets/logos/aws-athena.svg" alt="Logo" width="150" height="150">
+</a>
+
 <h1 align = "center">
 <b>Athena-Klient</b>
 </h1>
     <!-- Add/Remove categories depending on your project -->
   <p align="center">
-    POC app to show how to query Athena and integrate the AWS SDK in Spring Boot.
-
   </p>
 </div>
+
+This is a Spring Boot application developed as a proof of concept to illustrate seamless integration with Amazon Athena
+using
+the AWS SDK for Java.
+
+The application demonstrates how to setup, configure, and execute SQL queries against Athena from
+within a Spring Boot environment. This project serves as a practical example for anyone looking to leverage Athena's
+capabilities for querying data directly stored in Amazon S3 in Spring.
+
+Inspired by the official [AWS Athena Java code samples by Amazon](./info/athena-code-samples.md) at the time of creation
+and the
+following [`AmazonAthenaSpringBootPOC` GitHub repository](https://github.com/contactsunny/AmazonAthenaSpringBootPOC.git).
 
 <br />
 
